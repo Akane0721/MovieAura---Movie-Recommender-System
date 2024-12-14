@@ -1,6 +1,9 @@
 # MovieAura
 This project aims to develop a personalized movie recommender system that delivers tailored recommendations based on user viewing history, genre preferences, and similar user preferences. This recommender can enhance user satisfaction by simplifying the content discovery process and minimizing search time.
 
+## Datasets
+[Full TMDB Movies Dataset 2024](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies)  
+[16000+ Movies (Metacritic)](https://www.kaggle.com/datasets/kashifsahil/16000-movies-1910-2024-metacritic)
 ## File Structure
 - **`main.py`**: Top module which combines submodule.
 - **`Data_Processing.py`**: Merging different datasets and extract features.
