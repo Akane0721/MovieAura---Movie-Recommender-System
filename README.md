@@ -12,12 +12,14 @@ This project aims to develop a personalized movie recommender system that delive
 2. Enter movie titles one by one:
 - Type a movie title in the input field and click `Add` after each entry.
 - Once all desired titles are added, click `Submit` to generate the recommendation report.
+
 ![](display/homepage.png)
 
 3. View and navigate:
 
 - Review the 5 most recommended movies in a pie chart.
 - Click `Return to Home` to go back to the home page.
+
 ![](display/resultpage.png)
 ## Team Members
 @akane0721  
