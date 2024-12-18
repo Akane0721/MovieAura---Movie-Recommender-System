@@ -34,10 +34,16 @@ def get_movie_scores(movie_titles, path):
     
     # Find indices of the input movies
     indices = pd.Series(movies_data.index, index=movies_data['Title']).drop_duplicates()
-    input_indices = [indices.get(title) for title in movie_titles if title in indices]
+    input_indices = []
+    #input_indices = [indices.get(title) for title in movie_titles if title in indices]
+    for title in movie_titles:
+        if title in indices:
+            input_indices.append(indices.get(title))
+        else:
+            raise ValueError("⚠ Contains movies that are not found in the dataset!")
     
-    if not input_indices:
-        raise ValueError("None of the provided movies are found in the dataset.")
+    #if not input_indices:
+        #raise ValueError("None of the provided movies are found in the dataset.")
     
     # Aggregate similarity scores for all provided movies
     aggregated_scores = sum(cosine_similarity(tfidf_matrix[idx], tfidf_matrix).flatten() for idx in input_indices)

@@ -1,6 +1,24 @@
 # MovieAura
 This project aims to develop a personalized movie recommender system that delivers tailored recommendations based on user viewing history, genre preferences, and similar user preferences. This recommender can enhance user satisfaction by simplifying the content discovery process and minimizing search time.
 
+## How to Run
+
+1. Start the Django server:
+   ```bash
+   python manage.py runserver
+   ```
+   Then, open http://127.0.0.1:8000/ in your browser to access the home page.
+
+2. Enter movie titles one by one:
+- Type a movie title in the input field and click `Add` after each entry.
+- Once all desired titles are added, click `Submit` to generate the recommendation report.
+![](display/homepage.png)
+
+3. View and navigate:
+
+- Review the 5 most recommended movies in a pie chart.
+- Click `Return to Home` to go back to the home page.
+![](display/resultpage.png)
 ## File Structure
 - **`main.py`**: Top module which combines submodule.
 - **`Data_Processing.py`**: Merging different datasets and extract features.
@@ -11,7 +29,7 @@ This project aims to develop a personalized movie recommender system that delive
 3. **`Submodule_03_Graph_Based.py`**
 4. **`Submodule_04_Transformer.py`**
 
-![](src/mod.png)
+![](display/mod.png)
    
 ## Third-Party Modules
 The project utilizes the following Python libraries:
