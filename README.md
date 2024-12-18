@@ -61,11 +61,8 @@ The project utilizes the following Python libraries:
 - **Graph-Based Algorithms**:
   - `networkx`: For graph construction and PageRank implementation.
 
-## Steps to Run
-1. Download `movie_features_merge_new.npy` and `Movie_Embeddings.pkl` from "https://drive.google.com/drive/folders/1pQiwsuW7wkabhcWuuibn4Weroiicl75S?usp=sharing"
-2. `python main.py`
-
-For custom inputs : update `movie_sequence` in `main.py`
+## Model Download
+-  Download `movie_features_merge_new.npy` and `Movie_Embeddings.pkl` from "https://drive.google.com/drive/folders/1pQiwsuW7wkabhcWuuibn4Weroiicl75S?usp=sharing"
 
 # Main.py
 Gathers all the movie scores from four submodules and weights them according to the relevance of each submodule to derive a final score to be sorted. From the sorted list the first five movies are chosen as the user recommendations.
