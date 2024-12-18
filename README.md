@@ -19,6 +19,16 @@ This project aims to develop a personalized movie recommender system that delive
 - Review the 5 most recommended movies in a pie chart.
 - Click `Return to Home` to go back to the home page.
 ![](display/resultpage.png)
+## Team Members
+@akane0721  
+@NikolaRaicevic2001  
+@rishabhk153  
+@Wendi Tan  
+@Yi-Hsuan Wen
+
+## Datasets
+[Full TMDB Movies Dataset 2024](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies)  
+[16000+ Movies (Metacritic)](https://www.kaggle.com/datasets/kashifsahil/16000-movies-1910-2024-metacritic)
 ## File Structure
 - **`main.py`**: Top module which combines submodule.
 - **`Data_Processing.py`**: Merging different datasets and extract features.
